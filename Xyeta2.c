@@ -1,5 +1,5 @@
-#include <stdbool.h>
-#include <inttypes.h>
+
+#include <stdio.h>
 int main(int argc, char*argv[])
 {
     int start, stop, step1;
