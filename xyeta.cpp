@@ -9,9 +9,8 @@ int main(int argc, char*argv[])
                "Enter start, stop, step:");
                scanf("%d%d%d", &start, &stop, &step);
               int sign = (step>0)? +1: -1;
-              int sign1 = (step> 0)? +1: 0;
                    int x = start;
-               while (sign1*sign*x < sign*stop)
+               while (sign*x < sign*stop)
                {
                    printf ("x=%d\n", x);
                    x+=step;
